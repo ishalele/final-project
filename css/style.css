@@ -1,0 +1,221 @@
+
+header {
+	color: black;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: inline;
+	padding: 25px 30px;
+	font-weight: bolder;
+	text-align: center;
+	border: black;
+}
+
+header:before, header:after { content:""; display: table; }
+header:after {clear: both; }
+header {zoom: 2;}
+
+nav{
+	color: #9C9C9C;
+	display: flex;
+	justify-content: center;
+	
+}
+
+nav ul {
+	text-align: center;
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+nav li a {
+	display: block;
+	color: #5E5E5E;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+nav li{
+	background-color: white;
+	color: black;
+	padding:5px;
+	width:auto;
+	height:auto;
+	display: inline-table;
+	align-items: center;
+}
+
+nav li a:hover, nav li a:focus {
+	background-color: transparent;
+	color: red;
+	box-sizing: 50px 80px;
+	text-decoration: underline;
+}
+html {
+	scroll-behavior: smooth;
+	}
+body {
+	margin-top: 100px;
+ 
+	font-size: 21px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 30px; 
+
+	background-image: url("../imgs/background.jpg");
+	background-repeat: no-repeat;
+	background-position: -50% -300%;
+	background-size: 1000px;
+
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+span {
+	font-family: "Frutiger Linotype";
+	font-size: 50px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 12px; 
+	text-align: center;
+	color: black;
+	align-items: center;
+}
+
+p { 
+	font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
+	font-size: 16px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 22px; 
+	padding-right: 10px;
+	padding-left: 10px;	
+} 
+/*Style the images*/
+img{
+    height: 200px;
+    width:auto;
+    border: 3px solid #513352;
+    padding: 25px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+main, h1{
+	font-family: "Frutiger Linotype";
+	border: 2px;
+	margin: 10px 0;
+	align-items: center;
+}
+
+p{
+	font-family: "Dejavu Sans";
+	align-items: center;
+	text-align: center;
+}
+
+#podcasttitle{
+	font-family: "Helvetica Neue";
+	align-items: center;
+}
+#HillClimbPoem{
+	color: black;
+}
+#HillClimbPoem:hover {
+	color: #513352;
+	background-color: white;
+	text-decoration: underline;
+
+}
+
+
+/*Added this so the links stay the same color*/
+a:visited{color: black}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 4fr;
+	grid-template-rows: 4fr; 
+	grid-gap: 10px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	color: black;
+	background-color: #ecdbf0;
+	text-align: center;
+	text-decoration: none;
+	bottom: 10px;
+	font-size: 20px;
+}
+
+footer a:hover {
+	color: #513352;
+	background-color: white;
+	text-decoration: underline;
+
+}
+
+.current{
+	background-color: yellow;		
+	text-decoration: underline;
+}
+
+label span{
+	display: none;
+}
+
+.skip a{
+	background: white;
+	left: 0;
+	padding: 7px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	top: -50px;
+	position: absolute;
+  }
+
+.skip a:focus{
+	top: 10px;
+  }
+
+  a:focus{
+	border-top: 2px dashed;
+	border-bottom: 2px dashed;
+  }
+
+  .description{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech {
+  margin: 12px;
+  background: #add8e6;
+  border-radius: 7px;
+  padding: 10px 0 50px 0;
+  flex-basis: 300px;
+  
+}

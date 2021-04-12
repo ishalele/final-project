@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151954955-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-151954955-1');
+		</script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/html5reset.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<title>My Literary World</title>
+		<style type="text/css">
+
+			h1 {
+				font-size: 80px;
+                text-align: center;
+			}
+
+			.contact-form{
+				max-width:400px;
+				margin:50px auto;
+				background:#fff;
+				border-radius:2px;
+				padding:20px;
+			}
+
+			.contact-form ul{
+				list-style:none;
+				padding:0;
+				margin:0;	
+			}
+			.contact-form li{
+				display: block;
+				padding: 9px;
+				border:1px solid #DDDDDD;
+				margin-bottom: 30px;
+				border-radius: 3px;
+			}
+			.contact-form li:last-child{
+				border:none;
+				margin-bottom: 0px;
+				text-align: center;
+			}
+
+			.contact-form input[type="text"],
+			.contact-form input[type="email"],
+			.contact-form textarea,
+			.contact-form select 
+			{
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				width: 100%;
+				display: block;
+				outline: none;
+				border: none;
+				height: 25px;
+				line-height: 25px;
+				font-size: 16px;
+				padding: 0;
+
+				font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
+				font-size: 14px; 
+				font-style: normal; 
+				font-variant: normal; 
+				font-weight: 400; 
+				line-height: 20px; 
+			}
+
+			.contact-form textarea{
+				resize: none;
+				height: 75px;
+			}
+
+			.contact-form input[type="submit"],
+			.contact-form input[type="button"]{
+				background: #631664;
+				border: none;
+				padding: 10px 20px 10px 20px;
+				border-bottom: 3px solid #631664;
+				border-radius: 3px;
+				color: rgb(248, 239, 191);
+			}
+			.contact-form input[type="submit"]:hover,
+			.contact-form input[type="button"]:hover{
+				background: #631664;
+				color: black;
+			}
+		</style>
+	</head>
+    
+<div class="skip"><a href="#main">Skip to Main Content</a></div>
+
+<main>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="podcasts.html">Podcasts</a></li>
+			<li><a href="articles.html">Newsletters</a></li>
+			<li><a href="writings.html">Short Writings</a></li>
+			<li><a href="speeches.html">Speeches</a></li>
+			<li><a class = "current" href="contact.html" class="selected">Let's Connect</a></li>
+		</ul>
+	</nav>
+<div class="grid-container">
+    <h1>
+        Let's Connect!
+    </h1>
+    <p>...and share reccomendations with each other</p>
+<body>
+
+<div class="container-form">
+<form action="https://formspree.io/f/xknkwlnp" method="post" class="contact-form" id="main">
+	<ul>
+		<li>
+			<label><span>name</span><input type="text" name="name" placeholder="Name" class="form-input"></label>
+		</li>
+		<li>
+			<label><span>email</span><input type="email" name="email" placeholder="Email" class="form-input"></label>
+		</li>
+		<li>
+			<label><span>subject</span><input type="text" name="subject" placeholder="Subject" class="form-input"></label>
+		</li>
+		<li>
+			<label><span>message</span><textarea name="message" placeholder="Share your thoughts" class="form-input"></textarea></label>
+		</li>
+		<li>
+			<input type="submit" value="Get chatting">
+		</li>
+	</ul>
+</form>
+</div>
+</body>
+</div>
+</main>
+
+<footer>
+	<a href="contact.html">Let's share our favorites.</a>
+</footer>
+
+</html>
