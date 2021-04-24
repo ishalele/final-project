@@ -16,17 +16,13 @@
 		<title>My Literary World</title>
 		<style type="text/css">
 
-			h1 {
-				font-size: 80px;
-                text-align: center;
-			}
-
 			.contact-form{
 				max-width:400px;
 				margin:50px auto;
 				background:#fff;
 				border-radius:2px;
 				padding:20px;
+				align-items: center;
 			}
 
 			.contact-form ul{
@@ -84,7 +80,7 @@
 				padding: 10px 20px 10px 20px;
 				border-bottom: 3px solid #631664;
 				border-radius: 3px;
-				color: rgb(248, 239, 191);
+				color: white;
 			}
 			.contact-form input[type="submit"]:hover,
 			.contact-form input[type="button"]:hover{
@@ -94,9 +90,12 @@
 		</style>
 	</head>
     
-<div class="skip"><a href="#main">Skip to Main Content</a></div>
+<div class="skip"><a href="#connect">Skip to Main Content</a></div>
 
 <main>
+	<header>
+		<h1 class="title">My Literary World</h1>
+	</header>
     <nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -108,13 +107,13 @@
 		</ul>
 	</nav>
 <div class="grid-container">
-    <h1>
+    <h1 id = "connect">
         Let's Connect!
     </h1>
-    <p>...and share reccomendations with each other</p>
+</div>
 <body>
 
-<div class="container-form">
+<div class="contact-form">
 <form action="https://formspree.io/f/xknkwlnp" method="post" class="contact-form" id="main">
 	<ul>
 		<li>
@@ -135,12 +134,17 @@
 	</ul>
 </form>
 </div>
+<br>
+<br>
 </body>
 </div>
 </main>
 
 <footer>
-	<a href="contact.html">Let's share our favorites.</a>
+	<a href="contact.html">Let's share our favorites.
+	<br>
+	© Isha Lele
+	</a>
 </footer>
 
 </html>
